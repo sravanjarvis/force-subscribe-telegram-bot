@@ -11,8 +11,8 @@ class Config():
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1163376457:AAHg-PmtF3uF2u6QZ-TLPIudCrGzsnDR8KM"
-    DATABASE_URL = "postgres://uyhwcxocswwjpl:0b952d94cbba0bcdef7e8e9af40fb67c798d980380d7aee0e2c50104f424d672@ec2-54-165-164-38.compute-1.amazonaws.com:5432/d7ic4cveqrbm4q"
+    BOT_TOKEN = "1478845994:AAElr0_k_QP3jHmpd183x0emtuSRlywSI1Y"
+    DATABASE_URL = ""
     APP_ID = "1710720"
     API_HASH = "b2edd8639674a7fa2b3491a2238747f7"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-        "**Developed by @viperadnan**"
+        "**Developed by @TheProfessor_03**"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
